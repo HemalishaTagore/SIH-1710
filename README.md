@@ -29,6 +29,9 @@ TrackEase proposes a user-friendly navigation platform with the following featur
 
 The system will initially use a mapped railway station and predefined locations to demonstrate navigation functionality.
 
+<img width="788" height="672" alt="Screenshot 2026-10-16 101433" src="https://github.com/user-attachments/assets/5af53e9a-c846-43c9-ad03-2d32fb196cc3" />
+
+
 ## Use Cases
 
 1. Finding Platforms: Passengers can locate their required platforms quickly.
