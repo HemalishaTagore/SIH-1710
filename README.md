@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 21/10/2026
+## Register Number: 212225040123
+## Name: HEMALISHA T
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -12,14 +12,52 @@ Ministry of Railway
 
 ## Idea
 
+## Project Name: TrackEase – Smart Railway Station Navigation System
+
+TrackEase is a smart navigation system designed to help passengers easily find platforms, ticket counters, restrooms, food courts, waiting halls, lifts, and other facilities inside railway stations. It provides interactive station maps, step-by-step directions, and voice guidance to improve the passenger experience. It also supports accessible routes for senior citizens, wheelchair users, and visually impaired passengers.
 
 ## Proposed Solution / Architecture Diagram
 
+TrackEase proposes a user-friendly navigation platform with the following features:
+
+- Interactive Maps: Displays station layouts, platforms, entrances, exits, and important facilities.
+- Smart Navigation: Provides the shortest route from the starting point to the selected destination.
+- Accessibility Support: Offers wheelchair-friendly routes using ramps, lifts, and step-free pathways.
+- Voice Guidance: Provides audio instructions to assist visually impaired passengers.
+- Digital Kiosk Support: Enables passengers to search for facilities and view directions through touchscreen kiosks.
+- Real-Time Updates: Allows authorized railway staff to update facility information and mark temporarily blocked routes.
+
+The system will initially use a mapped railway station and predefined locations to demonstrate navigation functionality.
 
 ## Use Cases
+
+1. Finding Platforms: Passengers can locate their required platforms quickly.
+2. Locating Facilities: Users can find ticket counters, restrooms, food courts, and waiting halls.
+3. Accessible Navigation: Wheelchair users and senior citizens can find suitable routes.
+4. Voice-Assisted Navigation: Visually impaired passengers can receive audio directions.
+5. Route Planning: Passengers can select their starting point and destination to obtain directions.
+6. Station Information Updates: Railway staff can update facility locations and blocked pathways.
+7. Kiosk Navigation: Passengers can access maps and directions through digital kiosks.
 
 
 ## Technology Stack
 
+- Frontend: HTML, CSS, JavaScript, React.js
+- Interactive Maps: Leaflet.js or SVG-based maps
+- Backend: Node.js and Express.js
+- Database: MongoDB
+- Routing Algorithm: Dijkstra's algorithm or A* algorithm
+- Voice Guidance: Web Speech API
+- Location Identification: QR codes for the initial prototype
+- Deployment: Vercel and Render
 
 ## Dependencies
+- Node.js and npm
+- React.js and React DOM
+- Express.js
+- MongoDB and Mongoose
+- Leaflet.js and React Leaflet, if using Leaflet maps
+- A routing algorithm implementation
+- Web Speech API support in the browser
+- Railway station floor plans or a manually designed station map
+- Internet connectivity for hosted services and data synchronization
